@@ -5,10 +5,6 @@ import { useState } from "react";
 import NewUser from "./pages/NewUser";
 import React from 'react'
 import Inventory from "./pages/Inventory";
-import T2 from "./pages/t2";
-import T21 from "./pages/t21";
-import T22 from "./pages/t22";
-import T1 from "./pages/t1";
 function App() {
   const sStorageTemp = localStorage.getItem("test");
 
@@ -20,23 +16,20 @@ function App() {
 
   return (
     <div className="flex">
-      {/* <BrowserRouter>
-      
-        <Routes>
-          <Route path="new" element={<NewUser />} />
-          <Route path="/home" element={<Home />}>
-            <Route path="/home/inv" element={<Inventory/>}/>
-          </Route>
-        </Routes>
-      </BrowserRouter> */}
       <BrowserRouter>
         <Routes>
-            <Route index element={<T1 />}/>
-            <Route path="t1" element={<T1 />}/>
-            <Route path="t2" element={<T2 />}>
-                <Route index element={<T21 />}/>
-                <Route  element={<T22 />}/>
+            <Route index element={<Home />}/>
+            <Route path="welcome" element={<NewUser />}/>
+
+            {/* W tym indexie ma byc navbar oraz rzeczy, które wyświetlają się zawsze*/}
+            <Route path="home" element={<Home />}>
+                
+                {/* <Route index element={<T21 />}/>  */}
+                
+                <Route path="inv" element={<Inventory />}/>
+              
             </Route>
+            
         </Routes>
       </BrowserRouter>
     </div>
