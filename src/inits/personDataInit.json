@@ -1,11 +1,15 @@
 {
-    "airportName":"",
-    "code":"",
+    "airportName": "",
+    "airportLevel": 1,
+    "reputation": 1,
+    "code": "",
     "money": 0,
-    "gold":0,
+    "gold": 0,
     "inventory": {},
-    "perks":{},
-    "fleet":{},
-    "ownedBuildings":{},
-    "activeItem":{}
+    "perks": {},
+    "fleet": {},
+    "ownedBuildings": {},
+    "activeItem": {},
+    "maxInventory": 100,
+    "hangarLvl": 1
 }

@@ -27,6 +27,10 @@ function App() {
                 {/* W tym indexie ma byc navbar oraz rzeczy, które wyświetlają się zawsze*/}
                 <Route path="home" element={<Home />}>
                     <Route path="inventory" element={<Inventory />} />
+                    <Route path="myairport" element={<Inventory />} />
+                    <Route path="shop" element={<Inventory />} />
+                    <Route path="hangar" element={<Inventory />} />
+                    <Route path="fleet" element={<Inventory />} />
                 </Route>
                 <Route
                     path="/"
