@@ -1,39 +1,44 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {
+    BrowserRouter,
+    Navigate,
+    Route,
+    Routes,
+    useNavigate,
+} from "react-router-dom";
 import Home from "./pages/Home";
-import Test1 from "./pages/Test1";
 import { useState } from "react";
 import NewUser from "./pages/NewUser";
-import React from 'react'
+import React from "react";
 import Inventory from "./pages/Inventory";
+import ErrorPage from "./pages/404";
 function App() {
-  const sStorageTemp = localStorage.getItem("test");
+    const sStorageTemp = localStorage.getItem("test");
+    const [playerData, setPlayerData] = useState(sStorageTemp);
 
-  const [playerData, setPlayerData] = useState(sStorageTemp);
+    // localStorage.setItem("isActive", true)
 
-  // localStorage.setItem("isActive", true)
+    const lsflag = localStorage.getItem("isActive");
 
-  const lsflag = localStorage.getItem("isActive");
+    return (
+        <>
+            <BrowserRouter>
+                <Routes>
+                    {/* <Route index element={<Home />} /> */}
+                    <Route path="welcome" element={<NewUser />} />
 
-  return (
-    <div className="flex">
-      <BrowserRouter>
-        <Routes>
-            <Route index element={<Home />}/>
-            <Route path="welcome" element={<NewUser />}/>
-
-            {/* W tym indexie ma byc navbar oraz rzeczy, które wyświetlają się zawsze*/}
-            <Route path="home" element={<Home />}>
-                
-                {/* <Route index element={<T21 />}/>  */}
-                
-                <Route path="inv" element={<Inventory />}/>
-              
-            </Route>
-            
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
+                    {/* W tym indexie ma byc navbar oraz rzeczy, które wyświetlają się zawsze*/}
+                    <Route path="home" element={<Home />}>
+                        <Route path="inventory" element={<Inventory />} />
+                    </Route>
+                    <Route
+                        path="/"
+                        element={<Navigate to="home" replace={true} />}
+                    />
+                    <Route path="*" element={<ErrorPage/>} />
+                </Routes>
+            </BrowserRouter>
+        </>
+    );
 }
 
 export default App;
