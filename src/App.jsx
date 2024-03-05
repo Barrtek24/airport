@@ -2,8 +2,7 @@ import {
     BrowserRouter,
     Navigate,
     Route,
-    Routes,
-    useNavigate,
+    Routes
 } from "react-router-dom";
 import Home from "./pages/Home";
 import { useState } from "react";
@@ -20,24 +19,22 @@ function App() {
     const lsflag = localStorage.getItem("isActive");
 
     return (
-        <>
-            <BrowserRouter>
-                <Routes>
-                    {/* <Route index element={<Home />} /> */}
-                    <Route path="welcome" element={<NewUser />} />
+        <BrowserRouter>
+            <Routes>
+                {/* <Route index element={<Home />} /> */}
+                <Route path="welcome" element={<NewUser />} />
 
-                    {/* W tym indexie ma byc navbar oraz rzeczy, które wyświetlają się zawsze*/}
-                    <Route path="home" element={<Home />}>
-                        <Route path="inventory" element={<Inventory />} />
-                    </Route>
-                    <Route
-                        path="/"
-                        element={<Navigate to="home" replace={true} />}
-                    />
-                    <Route path="*" element={<ErrorPage/>} />
-                </Routes>
-            </BrowserRouter>
-        </>
+                {/* W tym indexie ma byc navbar oraz rzeczy, które wyświetlają się zawsze*/}
+                <Route path="home" element={<Home />}>
+                    <Route path="inventory" element={<Inventory />} />
+                </Route>
+                <Route
+                    path="/"
+                    element={<Navigate to="home" replace={true} />}
+                />
+                <Route path="*" replace={true} element={<ErrorPage />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 

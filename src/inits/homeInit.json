@@ -1,32 +1,44 @@
 [
     {
         "name": "Airport",
-        "descritopn": "Your Airport Name: ",
-        "unlocked": true
+        "description": "Your Airport Name: ",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": "myairport"
     },
     {
         "name": "Inventory",
-        "descritopn": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
-        "unlocked": true
+        "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": "inventory"
     },
     {
         "name": "Shop",
-        "descritopn": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
-        "unlocked": true
+        "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": "shop"
     },
     {
         "name": "Cargo Hangar",
-        "descritopn": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
-        "unlocked": true
+        "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": "hangar"
     },
     {
         "name": "Fleet",
-        "descritopn": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
-        "unlocked": true
+        "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": "fleet"
     },
     {
-        "name": "",
-        "descritopn": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
-        "unlocked": true
+        "name": " ",
+        "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": ""
     }
 ]
