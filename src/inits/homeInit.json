@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Airport",
+        "descritopn": "Your Airport Name: ",
+        "unlocked": true
+    },
+    {
+        "name": "Inventory",
+        "descritopn": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true
+    },
+    {
+        "name": "Shop",
+        "descritopn": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true
+    },
+    {
+        "name": "Cargo Hangar",
+        "descritopn": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true
+    },
+    {
+        "name": "Fleet",
+        "descritopn": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true
+    },
+    {
+        "name": "",
+        "descritopn": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true
+    }
+]
