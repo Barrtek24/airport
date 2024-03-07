@@ -35,7 +35,42 @@
         "endpoint": "fleet"
     },
     {
-        "name": " ",
+        "name": "Construction field",
+        "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": "construction"
+    },
+    {
+        "name": "",
+        "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": ""
+    },
+    {
+        "name": "",
+        "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": ""
+    },
+    {
+        "name": "",
+        "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": ""
+    },
+    {
+        "name": "",
+        "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
+        "unlocked": true,
+        "image": "86x86-black.png",
+        "endpoint": ""
+    },
+    {
+        "name": "",
         "description": "PLACE FOR DESCRIPTION TO BE ADDED IN THE FUTURE",
         "unlocked": true,
         "image": "86x86-black.png",

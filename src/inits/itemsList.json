@@ -1,0 +1,52 @@
+[
+    {
+        "id":0,
+        "name":"",
+        "description":"",
+        "image": "",
+        "requiredLevel": 1,
+        "requiredItems": {}
+    },{
+        "id":1,
+        "name":"",
+        "description":"",
+        "image": "",
+        "requiredLevel": 1,
+        "requiredItems": {}
+    },{
+        "id":2,
+        "name":"",
+        "description":"",
+        "image": "",
+        "requiredLevel": 1,
+        "requiredItems": {}
+    },{
+        "id":3,
+        "name":"",
+        "description":"",
+        "image": "",
+        "requiredLevel": 1,
+        "requiredItems": {}
+    },{
+        "id":3,
+        "name":"",
+        "description":"",
+        "image": "",
+        "requiredLevel": 1,
+        "requiredItems": {}
+    },{
+        "id":4,
+        "name":"",
+        "description":"",
+        "image": "",
+        "requiredLevel": 1,
+        "requiredItems": {}
+    },{
+        "id":5,
+        "name":"",
+        "description":"",
+        "image": "",
+        "requiredLevel": 1,
+        "requiredItems": {}
+    }
+]

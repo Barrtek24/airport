@@ -11,5 +11,7 @@
     "ownedBuildings": {},
     "activeItem": {},
     "maxInventory": 100,
-    "hangarLvl": 1
+    "hangarLvl": 1,
+    "itemsCrafted": 0,
+    "airplanesServed": 0
 }

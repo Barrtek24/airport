@@ -11,8 +11,10 @@ import React from "react";
 import Inventory from "./pages/Inventory";
 import ErrorPage from "./pages/404";
 function App() {
-    const sStorageTemp = localStorage.getItem("test");
+    const sStorageTemp = JSON.parse(localStorage.getItem("userData"));
     const [playerData, setPlayerData] = useState(sStorageTemp);
+    
+    console.log(playerData);
 
     // localStorage.setItem("isActive", true)
 
